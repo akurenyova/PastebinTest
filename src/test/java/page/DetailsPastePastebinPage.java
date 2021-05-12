@@ -38,7 +38,7 @@ public class DetailsPastePastebinPage {
     }
 
     public String pasteSyntaxLabelText() {
-        if (pasteSyntaxLabel.getText() == "text") {
+        if (pasteSyntaxLabel.getText().equals("text")) {
             return "None";
         } else {
             return pasteSyntaxLabel.getText();
